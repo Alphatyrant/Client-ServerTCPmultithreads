@@ -18,7 +18,7 @@ int main(int argc, char *argv[]){
 
     pthread_t thread;    
 
-    if(argc < 3){
+    if(argc < 4){
         printf("ERRO!\nUse:\t%s hostname porta nome!\n", argv[0]);
         return 1;
     }
