@@ -28,7 +28,7 @@ unsigned int contclient = 0;
 void *recv_message(void *clientsocket );
 
 int main(int argc, char *argv[]){ 
-    if(argc < 2){printf("ERRO!\nUse:\t%s PORTA", argv[0]);return 1;}
+    if(argc < 2){printf("ERRO!\nUse:\t%s PORTA\n", argv[0]);return 1;}
     pthread_t thread[CONEXOES];
     int status;
     int temp;
