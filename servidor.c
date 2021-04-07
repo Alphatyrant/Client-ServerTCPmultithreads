@@ -97,8 +97,8 @@ void *recv_message(void *clientsocket){
             break;
         }
 	printf("%s: %s",clientes[x].nome, mensagem);
-    strncpy(msgconc, clientes[x].nome, sizeof(msgconc));
-    strncat(msgconc, ": ", sizeof(msgconc)-1);
+	strncpy(msgconc, clientes[x].nome, sizeof(msgconc));
+	strncat(msgconc, ": ", sizeof(msgconc)-1);
 	strncat(msgconc, mensagem, sizeof(msgconc)-1);
 	for(int i = 0;i<contclient;i++){
 	    if(i != x)
