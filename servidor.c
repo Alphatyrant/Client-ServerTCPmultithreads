@@ -1,3 +1,4 @@
+//Compile com:gcc servidor.c -o servidor -lpthread
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
